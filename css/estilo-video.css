@@ -1,0 +1,267 @@
+/* fontes */
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(../fonts/ProximaNova-Regular.otf) format("opentype");
+  }
+  
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url(../fonts/Proxima-Nova-Bold.otf) format("opentype");
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: "Handel";
+    src: url(../fonts/handel-gothic-d-medium.otf) format("opentype");
+   
+  }
+  
+  @font-face {
+    font-family: "Handel";
+    src: url(../fonts/handel-gothic-d-bold.otf) format("opentype");
+    font-weight: bold;
+  }
+  
+  html{
+    background: linear-gradient(to top, #efedf2, #f9f8fa);
+    
+  }
+  /*  fim fontes */
+  /* Inicio seja bem vindo */
+  header h1, h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Handel";
+  }
+  #pg-video-header{
+    padding-top: 177px;
+  }
+  header h2{
+    font-size: 47px;
+  }
+  
+  header p{
+    font-size: 40px;
+    font-family: "Proxima nova";
+  }
+  .titulo-video {
+    color: #d60d8c;
+    font-size: 66px;
+  
+  }
+  
+  
+  #container-video{
+    margin: 0 auto;
+    width: 900px;
+    padding-top: 55px;
+    padding-bottom: 136px;
+    
+  }
+  
+  
+  #box-conteiner1 {
+    width: 100%;
+    box-shadow: 6px -6px 2em #cfdae6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  .box-video{
+    width: 100%;
+    flex-grow: 1;
+    padding-top: 165px;
+    padding-bottom: 400px;
+  }
+  /* Fim seja bem vindo */
+  
+  body {
+    background-image: url(../imagens/bg-top-left.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: left top;
+    font-family: "Proxima Nova";
+  }
+  
+  header {
+    padding-top: 90px;
+    text-align: center;
+  }
+  
+  .upper {
+    text-transform: uppercase;
+    font-size: 40px;
+  }
+  
+  #container {
+    margin: 0 auto;
+    width: 1400px;
+    padding-top: 300px;
+  }
+  
+  #box-conteiner {
+    width: 100%;
+    box-shadow: 6px -6px 2em #d9d8da;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  #textbox{
+    text-align: justify;
+    padding-left: 115px;
+  }
+  
+  .box {
+    width: 50%;
+    flex-basis: 50%;
+    flex-grow: 1;
+    padding-top: 165px;
+    padding-bottom: 400px;
+  }
+  
+  .box1 {
+    background-color: #ffffff;
+    background-image: url(../imagens/bg-lateral.png);
+    background-position: left bottom;
+    background-size: 85%;
+    background-repeat: no-repeat;
+  }
+  
+  .box2 {
+    background-color: #eeecf1;
+    padding-bottom: 122px;
+  }
+  
+  .box1 p {
+    font-size: 40px;
+  }
+  
+  .form-box{
+    padding-bottom: 45px;
+  }
+  
+  fieldset{
+    font-size: 40px;
+    padding-left: 17%;
+    padding-right: 17%;
+    border: none;
+  
+  }
+  
+  label{
+    display: block;
+    cursor: pointer;
+    
+  }
+  
+  .sem-acesso{
+    font-size: 23px;
+    padding-left: 30px;
+    color: #949595;
+  }
+  
+  .sem-acesso a{
+    text-decoration: none;
+    color: #949595;
+    font-weight: bold
+  
+  }
+  
+  input{
+    font-size: 30px;
+    width: 450px;
+    height: 65px;
+  }
+  
+  .btn-submit:hover{
+    color: #000;
+    background-color: #0c9bc0;
+  }
+  
+  .btn-submit{
+    text-transform: uppercase ;
+    font-weight: bold;
+    border: solid #0c9bc0;
+    margin-left: 10%;
+    font-family: "tahoma";
+    font-size: 36px;
+    width: 370px;
+    height: 70px;
+    
+  }
+  
+  #texto-inferior {
+    display: block;
+    font-family: "Handel";
+    text-transform: uppercase;
+    
+  }
+  
+  #texto-inferior p {
+    
+    font-size: 40px;
+    text-align: center;
+    
+  }
+  
+  /* Rodapé */
+  footer {
+    font-size: 20px;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 0px;
+    
+  }
+  .info {
+    background-color: #ffffff;
+    width: 100%;
+    
+  }
+  
+  .text-info {
+    display: inline-block;
+    width: 100%;
+    
+  }
+  
+  .footer-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .rede-sociais {
+    background-color: #000000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  .rede-sociais a{
+    
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px;
+  }
+  
+  
+  
+  .config-footer{
+    padding-top: 44px;
+    padding-right: 55px;
+  }
+  
+  .container-footer{
+    max-width: 1152px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  
+  }
+  /* Fim Rodapé */
