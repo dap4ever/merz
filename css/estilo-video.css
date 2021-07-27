@@ -45,7 +45,7 @@
     font-family: "Proxima nova";
   }
   .titulo-video {
-    color: #d60d8c;
+    color: #f90590;
     font-size: 66px;
   
   }
@@ -260,8 +260,8 @@
     max-width: 1152px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   
   }
   /* Fim Rodapé */
